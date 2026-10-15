@@ -1,0 +1,103 @@
+<html>
+    <head>
+<style>
+   .navbar{
+    position: relative;
+    padding: 15px 1cqi;
+    background-color: #a1b550;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    border: 0.5px solid #db2b2b;
+   }
+  
+   ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #a1b550;
+   }
+   ul li{
+    float: left;
+   }
+   ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+
+   ul li a:hover{
+    background-color: #91bb94;
+    border-radius: 20px;
+   }
+  
+   
+  .logo img{
+    width: 50px;
+    height: auto;
+    
+   }
+  
+   form, h2 {text-align: center;display:block;}
+   input[type=text], input[type=email], textarea {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1.5px solid #eb0404;
+    border-radius:8px
+   }
+    
+
+
+body{ 
+background-image:
+    linear-gradient(135deg, #1fc2f8, #5d64ec);
+}
+  
+
+
+</style>
+</head>
+  
+<body>
+    
+
+
+
+   <nav class="navbar">
+       <a href="homepage.html"class="logo">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.e96qrJsBJxBYMzZXM-PYXAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"alt="logo">
+
+    </a>
+<ul>
+    <li><a href="homepage.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <div class="indicator"></div>  
+</ul>
+   </nav>
+   </br>
+
+
+    <h2>Contact Me</h2>
+
+<form action="thankyou.html" method="get">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+  <label for="subject">Subject:</label><br>
+  <input type="text" id="Subject" name="Subject" placeholder="Enter subject"><br>
+  <label for="message">Message:</label><br>
+  <textarea name="message" rows="6" cols="20" placeholder="Enter your message"></textarea><br><br><br>
+  <input type="submit" value="Send Message">
+  
+</form> 
+
+</body>
